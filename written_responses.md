@@ -1,5 +1,11 @@
 1. What is a regular expression and how does it work?
 
+A regular expression consists of notation indicating a pattern to be search for and matched within a body of text. The notation can indicate what type of text or character to serach for, the number of times that a certain character or piece of text may be repeated, or the relative location or orientations of a pattern of text. Once the regular expression is established, the text is read and consumed character by character, and if a piece of text is located that satisfies the conditions of the regular expression, the match may be returned.
+
 2. What is an array and how does it work?
 
+An array is a data structure that can store data elements, usually of the same type, for a variety of different functions. Arrays usually allot a predetermined amount of space in memory for the data elements they intend to store. The allotted space becomes larger and larger as more elements are added, so that the operation of allotting more memory for the array doesn't have to be performed every time a single element is added. As elements are added in the array, they're assigned a numerical index, which increases with each element added. This numerical index makes it easy to access the elements as they're needed. However, it can result in some operations, like insertion or deletion, to require a greater time complexity, since the numerical indices of the elements in the array have to be adjusted with each insertion or deletion.
+
 3. What is a hash table and how does it work?
+
+A hash table is similar to an array in that it's a data structure that stores elements. Hash tables also allot space in memory for elements that can grow and resize as more elements are added. However, it addresses the challenges of insertion and deletion by carrying out a hash function to determine where in the structure to store the element. Depending on the value and the hash function, some elements may be assigned to the same location in the hash table; when this occurs, elements can be linked from one to another in a linked list fashion. This makes insertion and deletion more time efficient, as not all of the indices of all of the elements in the array have to be adjusted, just the references of the adjacent data elements.
